@@ -1,0 +1,321 @@
+@media (max-width: 1200px) {
+    .logo img {
+        width: 105px;
+    }
+    .logo {
+        margin-top: 22px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 12px;
+    }
+    .nav>li>a {
+        padding: 10px 7px;
+    }
+    .timeTop {
+        float: right;
+        padding-left: 30px;
+        color: #fff;
+        width: 147px;
+        margin: 36px 5px;
+        line-height: 17px;
+    }
+    .footMenu:first-child {
+        margin-right: 25px;
+    }
+    .mainpage_img .sale {
+        font-size: 39px;
+    }
+}
+
+@media (min-width: 992px) {
+    .introSliderSingle__MainCol {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 992px) {
+    #menu-mainmenu {
+        display: none;
+    }
+    .timeTop, .phoneTop {
+        display: none;
+    }
+    #responsive-menu-additional-content .timeTop, #responsive-menu-additional-content .phoneTop {
+        display: block;
+        float: none;
+        padding-left: 32px!important;
+        width: 100%;
+        max-width: 150px;
+        height: 40px;
+    }
+    .imgLink .descr {
+        padding: 35px 35px;
+    }
+    .single_add_to_cart_button {
+        border: 0;
+        background: #edc331;
+        color: #fff;
+        margin-left: 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 5px 10px;
+    }
+    footer {
+        height: auto;
+    }
+    .cartTop {
+        position: absolute;
+        top: 0px;
+        left: 220px;
+    }
+}
+@media (max-width: 768px) {
+
+    .bil_block, .time_block {
+        
+        display: block;
+        padding: 3px;
+    }
+
+    .flex-row {
+        display: block;
+        left: 50%;
+    }
+
+    .flex-row > div {
+        height: 30px;
+        position: relative;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+        max-width: 100%;
+    }
+
+    label[for="billing_time"] {
+        margin: 0 auto;
+    }
+
+    #order-comments {
+        min-width: 190px;
+        margin: 0 auto!important;
+    }
+
+    .cartTop {
+        position: absolute;
+        top: 0px;
+        left: 110px;
+    }
+    .mainpage_img .sale {
+        font-size: 24px;
+        top: 100px;
+    }
+    .mainpage_img {
+        height: 350px;
+    }
+    .hits .col-sm-3 {
+        text-align: center;
+    }
+    .instaItem {
+        margin-bottom: 30px;
+    }
+    footer .logo {
+        display: block;
+        width: 105px;
+        margin: 0px auto 20px;
+    }
+    .footMenu {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .ftel, .fadr, .ftime, .ecards {
+        width: 200px;
+        margin: 10px auto;
+    }
+    .ecards {
+        text-align: center;
+    }
+    .pizzaUnit .descr {
+        display: none;
+    }
+    .bcrumbs {
+        display: none;
+        float: none;
+        text-align: center;
+    }
+    .bcrumbs li {
+        font-size: 12px;
+        float: none;
+    }
+    .bcrumbs li:before {
+        margin: 0;
+        content: '';
+    }
+    .dop-cheese {
+        margin-top: 20px;
+    }
+    .drinkBlock .col-sm-3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .woocommerce-message {
+        border-top-color: #efba11;
+        margin-top: 30px;
+    }
+    .wc-proceed-to-checkout {
+        text-align: center;
+    }
+    h2, h3 {
+        text-align: center;
+    }
+    .woocommerce-thankyou-order-received {
+        text-align: center;
+    }
+    #customer_details, .woocommerce-order {
+        text-align: center;
+    }
+    .woocommerce form .form-row {
+        padding: 3px;
+        margin: 0 0 6px;
+        width: 100%;
+    }
+    .rulesLink {
+        float: none;
+        position: relative;
+        height: auto;
+        top: 0;
+        /* width: 230px; */
+        background: none;
+        text-align: center;
+    }
+    .modal-footer, .modal-dialog {
+        max-width: 100%;
+    }
+    .modal-content {
+        max-width: 100%;
+    }
+
+    .container .row {
+        padding: 0 15px;
+    }
+    .catalog-page h1 {
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+    .del-row {
+        margin: 10px 0;
+    }
+    .free_shipping {
+        left: auto;
+        margin: 0 15px;
+        transform: translateX(0);
+    }
+    .oil-row {
+        display: block;
+        top: auto;
+        height: 25px;
+    }
+    form.cart {
+        text-align: center;
+    }
+    .single_add_to_cart_button {
+        margin: 15px 0;
+    }
+    .woocommerce-thankyou-order-details {
+        display: none;
+    }
+    .introSliderSingle__title {
+        font-size: 40px;
+        padding: 11px 33px;
+        margin-bottom: 44px;
+    }
+    .introSliderSingle__subTitle {
+        padding: 0 10px;
+        font-size: 24px;
+    }
+    .introSliderSingle__PriceVal, .introSliderSingle__PriceSymb {
+        font-size: 38px;
+    }
+    .introSliderSingle__descMenuItem {
+        font-size: 14px;
+    }
+    .introSliderSingle[data-post-number="1"] .introSliderSingle__title {
+        font-size: 24px;
+        margin-bottom: 45px;
+        padding: 13px 20px 15px;
+    }
+    .introSliderSingle__Excerpt ul {
+        margin: 0 0 30px;
+    }
+    .introSliderSingle__Excerpt p {
+        margin-bottom: 36px;
+    }
+    .introSliderSingle__Excerpt ul li {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .introSlider .slick-dots {
+        bottom: 9px;
+    }
+    .slick-initialized .introSliderSingle {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 460px) {
+    .modal .title {
+        font-size: 18px;
+    }
+    .zone3, .zone2, .zone1, .zone4 {
+        vertical-align: top;
+    }
+    label span {
+        display: inline-block;
+        max-width: 200px;
+        width: 100%;
+    }
+    .free_shipping {
+        left: auto;
+        margin: 0px 15px;
+        transform: translateX(0);
+        font-size: 12px;
+        padding: 14px 0 0 29px;
+    }
+    .prod-price {
+        margin: 0 auto;
+        display: block!important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .product_title {
+        font-size: 27px;
+        margin: 20px;
+        text-align: center;
+    }
+    .woocommerce-error .button, .woocommerce-info .button, .woocommerce-message .button {
+        float: none;
+        position: relative;
+        display: block;
+    }
+
+    .free_shipping {
+        left: 50%;
+        margin: 0px auto;
+        transform: translateX(-50%);
+        position: absolute;
+        padding-left: 26px;
+    }
+    .wdm_options_table {
+        width: 170px;
+        font-size: 11px;
+    }
+
+}
+

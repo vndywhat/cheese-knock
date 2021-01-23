@@ -1,0 +1,87 @@
+.wtf-text {
+    clear: both;
+    padding-top: 20px;
+    font-size: 18px;
+    display: none;
+    text-align: left;
+}
+.wtf-text a {
+    color: #fff;
+    background: #fcc410;
+    padding: 5px 25px;
+}
+#map-ya {
+    width: 66%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.deliv-text .free-del,
+.deliv-text .not-free-del,
+.deliv-text .call-free-del {
+    display: none;
+}
+.deliv-text .free-del {
+    color: #69bf29;
+}
+.deliv-text .not-free-del,
+.deliv-text .call-free-del {
+    color: #a00;
+}
+.deliv-text {
+    clear: both;
+}
+#customer_details {
+    float: left;
+    width: 33%;
+}
+#order_review_heading {
+    clear: both;
+}
+.modal1-footer {
+    float: right;
+    display: block;
+    /* padding-left: 50px; */
+    margin-top: 20px;
+    width: 66%;
+}
+#order_comments {
+    margin: auto;
+}
+@media (max-width: 800px) {
+    .modal1-footer {
+        float: none;
+        display: block;
+        /* padding-left: 50px; */
+        margin-top: 20px;
+        width: 100%;
+    }
+    #customer_details {
+        float: none;
+        width: 100%;
+    }
+    #map-ya {
+        width: 100%;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        float: none;
+    }
+    /* .woocommerce-billing-fields .input-text,
+     .woocommerce form .form-row textarea {
+         width: inherit !important;
+     }
+     .woocommerce form .form-row {
+         width: 100% !important;
+     }*/
+}
+@media (max-width: 1000px) {
+    /*.woocommerce-billing-fields .input-text,
+    .woocommerce form .form-row textarea {
+        width: inherit !important;
+    }*/
+    .woocommerce form .form-row {
+        width: 100% !important;
+    }
+}
